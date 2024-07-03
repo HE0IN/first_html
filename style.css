@@ -14,15 +14,24 @@
     color: #EEE;
 }
 
-.red {
-    background-color: rgba(248, 2, 2, 0.541);
-}
-
-.blue {
-    background-color: rgb(190, 231, 43);
+.page:nth-of-type(1) {
+    background-color: rgb(231, 94, 60);
+    color: #EEE;
+    h1{
+        background-color: rgb(97, 60, 231);
+        color: #EEE;
+        border-radius: 300px;
+        width: 500px;
+        margin: auto;
+        padding: 10px;
+    }
 }
 
 .page:nth-of-type(2) {
+    background-color: rgb(224, 141, 17);
+}
+
+.page:nth-of-type(3) {
     background-color: rgb(224, 169, 17);
 }
 
@@ -47,7 +56,6 @@ html {
 h1 {
     text-align: center;
     margin: 10px;
-    color: #EEE;
 }
 
 img {
@@ -60,11 +68,15 @@ img {
 blockquote {
     text-align: center;
     padding: 24px;
-    margin: 24px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 16px;
     background-color: #64c537;
     font-family: serif;
-    color: rgb(122, 48, 190);
+    color: rgb(98, 15, 175);
+    font-weight: bolder;
 }
 
 dt {
@@ -72,17 +84,18 @@ dt {
     display: inline-block;
     text-align: left;
     font-weight: bold;
-}
+    border: 1px solid black;
+}   
 
 dd {
     display: inline-block;
     width: 60%;
     text-align: left;
+    border: 1px solid black;
 }
 
 .center {
     text-align: center;
-    color: #943e6d;
 }
 
 h2,
@@ -93,6 +106,7 @@ h3 {
 table {
     border-collapse: collapse;
     margin: auto;
+    font-weight: 30px;
 }
 
 td {
@@ -101,7 +115,7 @@ td {
 
 th {
     padding: 12px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid
 }
 
 p {
@@ -136,11 +150,13 @@ form {
 .external-link {
     margin: 4px;
     padding: 12px;
-    border: 1px solid gray;
+    border: 3px dashed gray;
+    background-color: rgb(17, 62, 102);
     display: inline-block;
     border-radius: 8px;
     text-decoration: none;
-    color: #7387be;
+    color: #ccee7d;
+    font-weight: bolder;
 }
 
 .top-bottom-12px {

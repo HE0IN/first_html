@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.gaegu-regular {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .page {
     width: 95vw;
     height: 100vh;
@@ -17,7 +22,8 @@
 .page:nth-of-type(1) {
     background-color: rgb(231, 94, 60);
     color: #EEE;
-    h1{
+
+    h1 {
         background-color: rgb(97, 60, 231);
         color: #EEE;
         border-radius: 300px;
@@ -46,9 +52,11 @@
 .page:nth-of-type(6) {
     background-color: rgb(214, 101, 195);
 }
+
 .page:nth-of-type(7) {
     background-color: rgb(134, 66, 108);
 }
+
 html {
     padding: 10px;
 }
@@ -84,14 +92,12 @@ dt {
     display: inline-block;
     text-align: left;
     font-weight: bold;
-    border: 1px solid black;
-}   
+}
 
 dd {
     display: inline-block;
     width: 60%;
     text-align: left;
-    border: 1px solid black;
 }
 
 .center {

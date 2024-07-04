@@ -10,13 +10,15 @@
   }
   
 .page {
-    width: 95vw;
+    width: 100vw;
     height: 100vh;
-    border: 1px solid;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #EEE;
+
+    scroll-snap-align: start;
 }
 
 .page:nth-of-type(1) {
@@ -59,11 +61,16 @@
 
 html {
     padding: 10px;
+    font-family: "Gaegu", sans-serif;
+    font-size: 25px;
+    padding: 0;
+    scroll-snap-type: y mandatory;
 }
 
 h1 {
     text-align: center;
     margin: 10px;
+    font-size: 30px;
 }
 
 img {
@@ -82,9 +89,8 @@ blockquote {
     margin-bottom: 10px;
     border-radius: 16px;
     background-color: #64c537;
-    font-family: serif;
     color: rgb(98, 15, 175);
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 dt {
@@ -109,10 +115,15 @@ h3 {
     margin: 24px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 table {
     border-collapse: collapse;
     margin: auto;
     font-weight: 30px;
+    font-size: 20px;
 }
 
 td {
@@ -129,6 +140,7 @@ p {
     margin: 12px auto;
     line-height: 1.5;
     word-break: keep-all;
+    font-size: 15px;
 }
 
 p::after,
